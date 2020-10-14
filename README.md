@@ -1,5 +1,5 @@
 # 프로젝트명
-> Spring Boot 기반 간단한 블로그 만들기
+> Spring Boot 기반 간단한 블로그 만들기 #회원가입 #로그인 #게시판
 
 ![](../header.PNG)
 
