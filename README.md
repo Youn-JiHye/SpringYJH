@@ -19,5 +19,3 @@ IntelliJ / Spring Boot / Lombok, SpringWeb, Thymeleaf, Spring Data JPA / MySQL
 
 이름 – 윤지혜
 이메일 - 3455jih@gmail.com
-
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
