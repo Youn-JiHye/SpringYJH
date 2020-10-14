@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
 </head>
 <body>
-    <form action="/post" method="post">
-        제목 : <input type="text" name="title"> <br>
-        작성자 : <input type="text" name="writer"> <br>
-        <textarea name="content"></textarea><br>
 
-        <input type="submit" value="등록">
-    </form>
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- HEADER -->
+    <div th:insert="common/header.html" id="header"></div>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Post -->
+        <article class="post">
+            <header>
+                <div class="title">
+                    <h2>게시판</h2>
+                </div>
+            </header>
+            <form action="/post" method="post">
+                제목 : <input type="text" name="title"> <br>
+                작성자 : <input type="text" name="writer"> <br>
+                <textarea name="content"></textarea><br>
+
+                <input type="submit" value="등록">
+            </form>
+        </article>
+    </div>
+
+    <!-- FOOTER -->
+    <div th:insert="common/footer.html" id="footer"></div>
+</div>
+<!-- script -->
+<script th:inline="javascript" th:src="@{/js/jquery.min.js}"></script>
+<script th:inline="javascript" th:src="@{/js/browser.min.js}"></script>
+<script th:inline="javascript" th:src="@{/js/breakpoints.min.js}"></script>
+<script th:inline="javascript" th:src="@{/js/util.js}"></script>
+<script th:inline="javascript" th:src="@{/js/main.js}"></script>
 </body>
 </html>
