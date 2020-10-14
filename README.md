@@ -3,13 +3,8 @@
 
 ![](../header.PNG)
 
-## 사용 예제
-
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
-
-
 ## 사용 기술
-IntelliJ / Spring Boot 
+IntelliJ / Spring Boot / Lombok, SpringWeb, Thymeleaf, Spring Data JPA / MySQL
 
 
 ## 업데이트 내역
